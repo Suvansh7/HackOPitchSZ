@@ -13,6 +13,7 @@ public class sp_reg extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sp_reg);
+        getSupportActionBar().setTitle("Registration");
         si=findViewById(R.id.button24);
         si.setOnClickListener(new View.OnClickListener() {
             @Override

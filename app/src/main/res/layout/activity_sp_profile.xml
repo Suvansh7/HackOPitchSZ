@@ -8,7 +8,7 @@
     tools:context=".sp_profile">
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/textView"
         android:layout_width="179dp"
         android:layout_height="48dp"
         android:fontFamily="@font/gotu"
@@ -21,7 +21,7 @@
         tools:layout_editor_absoluteX="59dp" />
 
     <EditText
-        android:id="@+id/name"
+        android:id="@+id/namee"
         android:layout_width="280dp"
         android:layout_height="80dp"
         android:background="@drawable/input_bg"
