@@ -4,6 +4,147 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".sp_signin">
+    android:background="@drawable/pronew"
+    tools:context=".sp1_signinotp">
+
+    <TextView
+        android:id="@+id/TextView"
+        android:layout_width="207dp"
+        android:layout_height="79dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/signupbg"
+        android:backgroundTint="#2C2A2A"
+        android:fontFamily="@font/julius_sans_one"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.108" />
+
+    <Button
+        android:id="@+id/idBtnVerify"
+        android:layout_width="281dp"
+        android:layout_height="44dp"
+        android:width="244.12dp"
+        android:height="47.7dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Get OTP"
+        app:backgroundTint="#2C2A2A"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.464" />
+
+    <EditText
+        android:id="@+id/idEdtOtp"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:width="281dp"
+        android:height="45dp"
+        android:background="@drawable/search_bg"
+        android:ems="10"
+        android:inputType="number"
+        android:paddingStart="5dp"
+        android:paddingLeft="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/idBtnVerify"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/idNewPwd"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:width="281dp"
+        android:height="45dp"
+        android:background="@drawable/search_bg"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:paddingStart="5dp"
+        android:paddingLeft="5dp"
+        android:textColorHighlight="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.729" />
+
+    <Button
+        android:id="@+id/ButtonSubmit"
+        android:layout_width="267dp"
+        android:layout_height="44dp"
+        android:width="244.12dp"
+        android:height="47.7dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Submit Password"
+        app:backgroundTint="#2C2A2A"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idNewPwd"
+        app:layout_constraintVertical_bias="0.19" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="119dp"
+        android:layout_height="44dp"
+        android:fontFamily="@font/julius_sans_one"
+        android:text="Sign IN"
+        android:textColor="#FBF6F6"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="@+id/TextView"
+        app:layout_constraintEnd_toEndOf="@+id/TextView"
+        app:layout_constraintStart_toStartOf="@+id/TextView"
+        app:layout_constraintTop_toTopOf="@+id/TextView" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="165dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="48dp"
+        android:fontFamily="@font/gotu"
+        android:text="OTP"
+        android:textColor="#232121"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.292"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TextView" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="165dp"
+        android:layout_height="44dp"
+        android:fontFamily="@font/gotu"
+        android:text="Password"
+        android:textColor="#232121"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/idNewPwd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.292"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="370dp"
+        android:layout_height="42dp"
+        android:fontFamily="@font/gotu"
+        android:text="--------------------or-------------------"
+        android:textColor="#9C9C9C"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/textView8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idBtnVerify" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
