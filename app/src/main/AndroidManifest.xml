@@ -10,6 +10,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".st_spprofile"
+            android:exported="false" />
+        <activity
+            android:name=".st_splist"
+            android:exported="false" />
+        <activity
+            android:name=".st_subc"
+            android:exported="false" />
+        <activity
+            android:name=".st_tos"
+            android:exported="false" />
+        <activity
+            android:name=".sp_profile"
+            android:exported="false" />
+        <activity
+            android:name=".sp_signin"
+            android:exported="false" />
+        <activity
+            android:name=".sp_reg"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
